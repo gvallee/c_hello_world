@@ -8,7 +8,7 @@
 # $HEADER$
 #
 
-AC_INIT([helloworld], [1.0], [geoffroy.vallee@gmail.com])
+AC_INIT([c_hello_world], [1.0.1], [geoffroy.vallee@gmail.com])
 AM_INIT_AUTOMAKE([dist-bzip2 subdir-objects foreign tar-ustar])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 

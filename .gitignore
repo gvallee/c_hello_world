@@ -42,8 +42,21 @@ m4/ltsugar.m4
 m4/ltversion.m4
 m4/lt~obsolete.m4
 
+src/.deps
+libtool
+
 # Generated Makefile 
 # (meta build system like autotools, 
 # can automatically generate from config.status script
 # (which is called by configure script))
 Makefile
+
+# Generated object files
+*.o
+
+# Generated binary
+src/helloworld
+
+# Release files
+c_hello_world*.tar.gz
+c_hello_world*.tar.bz2
